@@ -1,7 +1,11 @@
-body {
+html, body {
     margin: 0;
     font-family: Arial, sans-serif;
     letter-spacing: 0.05rem;
+    background-color: rgb(93, 0, 147);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header {
@@ -13,6 +17,7 @@ header {
 
 header ul {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -61,6 +66,7 @@ nav ul {
     background-color: rgb(247, 232, 255);
     list-style: none;
     display: flex;
+    flex-direction: row;
     gap: 1rem;
 }
 
@@ -77,10 +83,22 @@ footer {
     background-color: black;
     color: rgb(213, 213, 213);
     padding: 0.5rem 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: auto;
+    text-align: center;
 }
 
 footer h2 {
     font-weight: 300;
     font-size: 1rem;
+    white-space: pre;
+}
+
+article {
+    text-align: center;
+    padding: 0.5rem 5rem;
+    letter-spacing: 0;
+    background-color: white;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    flex: 1;
 }
