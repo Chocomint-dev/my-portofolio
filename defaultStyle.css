@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    letter-spacing: 0.05rem;
 }
 
 header {
@@ -45,6 +46,11 @@ header ul li {
     font-size: 2.25rem;
 }
 
+#portofolio-text {
+    font-size: 1rem;
+    font-weight: light;
+}
+
 .rightAligned {
     margin-left: auto;
 }
@@ -65,4 +71,16 @@ nav ul li {
     color: white;
     font-weight: 500;
     letter-spacing: 0.05rem;
+}
+
+footer {
+    background-color: black;
+    color: rgb(213, 213, 213);
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 1rem;
 }
