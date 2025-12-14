@@ -16,10 +16,16 @@ header ul {
     margin: 0;
     padding: 0;
     gap: 0.5rem;
+    align-items: center;
 }
 
 header ul li {
     padding: 0.5%;
+}
+
+#logo{
+    width: 40px;
+    height: auto;
 }
 
 #aboutMe {
