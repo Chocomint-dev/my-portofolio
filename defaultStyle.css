@@ -7,7 +7,7 @@ header {
     background-color:black;
     color: white;
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 header ul {
@@ -24,13 +24,17 @@ header ul li {
 }
 
 #logo{
-    width: 40px;
+    width: 3rem;
     height: auto;
 }
 
 #aboutMe {
-    background-color: white;
-    color: black;
+    font-family: sans-serif;
+    font-weight: 50;
+    color: rgb(247, 232, 255);
+    border-color: rgb(247, 232, 255);
+    border-style: solid;
+    border-width: 1.5px;
     border-radius: 0.25rem;
 }
 
@@ -38,6 +42,7 @@ header ul li {
     font-weight: bold;
     letter-spacing: 0.1rem;
     font-family: Arial, sans-serif;
+    font-size: 2.25rem;
 }
 
 .rightAligned {
@@ -46,13 +51,18 @@ header ul li {
 
 nav ul {
     margin: 0;
-    padding: 0;
-    background-color: lightblue;
+    padding: 0.5rem 0.25rem;
+    background-color: rgb(247, 232, 255);
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
 nav ul li {
-    padding: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color:rgb(164, 0, 205);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
 }
