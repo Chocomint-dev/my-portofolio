@@ -7,6 +7,7 @@ header {
     background-color:black;
     color: white;
     padding: 1%;
+    font-size: 1.5rem;
 }
 
 header ul {
@@ -30,7 +31,6 @@ header ul li {
 #Chocomint-dev {
     font-weight: bold;
     letter-spacing: 0.1rem;
-    font-size: large;
     font-family: Arial, sans-serif;
 }
 
