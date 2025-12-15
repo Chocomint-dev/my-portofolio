@@ -59,6 +59,7 @@ nav a {
 }
 
 nav a:hover{
+    text-decoration: none;
     background-color: white;
     color: purple;
 }
@@ -68,6 +69,7 @@ article {
     background-color: white;
     color: black;
     flex: 1;
+    text-align: center;
 }
 
 footer {
