@@ -81,14 +81,17 @@ article {
     }
 
     @media(min-width: 800px){
+        padding-top: 1rem;
         padding-left: 10rem;
         padding-right: 10rem;
     }
 
     @media(min-width: 1000px){
+        padding-top: 2rem;
         padding-left: 20rem;
         padding-right: 20rem;
     }
+
     background-color: white;
     color: black;
     flex: 1;
