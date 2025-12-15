@@ -1,118 +1,75 @@
-html, body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    letter-spacing: 0.05rem;
-    background-color: rgb(93, 0, 147);
+body {
+    max-width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color:black;
+    padding: 0.5rem;
+    background-color: black;
     color: white;
-    padding: 1%;
-    font-size: 1.25rem;
-}
-
-header ul {
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 0.5rem;
+    gap: 0.75rem;
     align-items: center;
 }
 
-header ul li {
-    padding: 0.5%;
-}
-
-#logo{
-    width: 3rem;
-    height: auto;
-}
-
-#aboutMe {
-    font-family: sans-serif;
-    font-weight: 50;
-    color: rgb(247, 232, 255);
-    border-color: rgb(247, 232, 255);
-    border-style: solid;
-    border-width: 1.5px;
-    border-radius: 0.25rem;
-}
-
-#Chocomint-dev {
+#Chocomint-dev-text {
     font-weight: bold;
-    letter-spacing: 0.1rem;
-    font-family: Arial, sans-serif;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 #portofolio-text {
-    font-size: 1rem;
-    font-weight: light;
+    font-size: small;
 }
 
-.rightAligned {
-    margin-left: auto;
+#logo {
+    width: 2.5rem;
 }
 
 nav {
-    background-color: black;
-    background-image: url(resources/Asset\ 1.png);
+    background-image: url(resources/nav_bg.png);
     background-size: cover;
-    background-position: center;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0.25rem 0.25rem 0 0.75rem;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
-}
-
-nav ul li {
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem 0.25rem 0 0;
-    border-style: solid;
-    border-bottom-style: none;
-    border-color: white;
-    border-width: 1px;
+    background-repeat: no-repeat;
+    background-color:black;
     color: white;
-    font-weight: 500;
-    letter-spacing: 0.05rem;
+    padding: 0.25rem 0 0.25rem 1rem;
+    display: flex;
+    gap: 1rem;
 }
 
-nav ul li:hover {
-    background-color: rgb(249, 219, 255);
-    color: rgb(90, 0, 168);
-    border-color: rgb(90, 0, 168)
+nav span {
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 0.5rem;
+}
+
+nav span:hover{
+    background-color: white;
+    color: purple;
+}
+
+article {
+    padding-left: 1rem;
+    background-color: white;
+    color: black;
+    flex: 1;
 }
 
 footer {
     background-color: black;
-    color: rgb(213, 213, 213);
-    padding: 0.5rem 0.5rem;
-    margin-top: auto;
-    text-align: center;
+    color: lightgray;
+    padding-left: 1rem;
 }
 
 footer h2 {
+    font-family: sans-serif;
     font-weight: 300;
     font-size: 1rem;
-    white-space: pre;
-}
-
-article {
     text-align: center;
-    padding: 0.5rem 5rem;
-    letter-spacing: 0;
-    background-color: white;
-    margin: 0;
-    flex: 1;
 }
