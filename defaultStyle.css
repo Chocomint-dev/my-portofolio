@@ -64,11 +64,17 @@ nav a:hover{
 }
 
 article {
-    padding-left: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     background-color: white;
     color: black;
     flex: 1;
     text-align: center;
+}
+
+article p {
+    text-align: left;
+    font-size: 20px;
 }
 
 footer {
