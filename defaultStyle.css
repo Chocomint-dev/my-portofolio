@@ -124,6 +124,11 @@ article p {
     text-decoration: underline;
 }
 
+article .reflections_container{
+    display: flex;
+    flex-direction: column;
+}
+
 article .reflection_box{
     background-color: rgb(35, 35, 66);
     border-radius: 0.75rem;
