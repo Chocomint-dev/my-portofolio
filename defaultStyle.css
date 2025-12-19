@@ -78,24 +78,27 @@ nav .selected_nav_button{
 article {
 
     @media(max-width: 400px){
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     @media(max-width: 600px){
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     @media(min-width: 600px){
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     @media(min-width: 800px){
         padding-top: 1rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
     @media(min-width: 1000px){
@@ -105,6 +108,7 @@ article {
     }
 
     background-color: white;
+    padding-bottom: 1rem;
     color: black;
     flex: 1;
 }
@@ -112,6 +116,47 @@ article {
 article p {
     text-align: left;
     font-size: 20px;
+}
+
+#back {
+    color: rgb(178, 178, 178);
+    text-decoration: underline;
+}
+
+article .reflection_box{
+    background-color: rgb(35, 35, 66);
+    border-radius: 0.75rem;
+    border-style: solid;
+    color: white;
+    padding: 1rem 0.75rem 1rem 0.75rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reflection_box h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color:rgb(196, 133, 255);
+    letter-spacing: 0.05rem;
+}
+
+.language_options {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.language_options a{
+    text-decoration: none;
+    color: white;
+    padding: 0.25rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.25rem;
+    font-weight: bold;
 }
 
 footer {
