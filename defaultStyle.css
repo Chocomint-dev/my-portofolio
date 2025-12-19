@@ -24,6 +24,7 @@ header a {
 #Chocomint-dev-text {
     font-weight: bold;
     font-size: 2.2rem;
+    padding-right: 0.2rem;
 }
 
 #portofolio-text {
@@ -118,6 +119,13 @@ article p {
     font-size: 20px;
 }
 
+article h1{
+    @media(min-width: 600px){
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+    }
+}
+
 #back {
     color: rgb(178, 178, 178);
     text-decoration: underline;
@@ -133,6 +141,20 @@ article .reflection_box{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.reflection_box p{
+    margin: 0;
+    font-size: medium;
+}
+
+#date {
+    font-size: medium;
+    color: rgb(133, 133, 133);
+    background-color: rgb(226, 226, 226);
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
 }
 
 .reflection_box h2 {
