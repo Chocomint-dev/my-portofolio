@@ -46,7 +46,7 @@ nav {
     gap: 1rem;
 }
 
-nav a {
+nav .default_nav_button {
     border-style: solid;
     border-color: white;
     border-radius: 0.5rem;
@@ -57,7 +57,19 @@ nav a {
     color: white;
 }
 
-nav a:hover{
+nav .default_nav_button:hover{
+    text-decoration: none;
+    background-color: white;
+    color: purple;
+}
+
+nav .selected_nav_button{
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 0.5rem;
+
     text-decoration: none;
     background-color: white;
     color: purple;
@@ -88,14 +100,13 @@ article {
 
     @media(min-width: 1000px){
         padding-top: 2rem;
-        padding-left: 20rem;
-        padding-right: 20rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
     }
 
     background-color: white;
     color: black;
     flex: 1;
-    text-align: center;
 }
 
 article p {
