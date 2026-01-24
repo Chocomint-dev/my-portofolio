@@ -155,21 +155,27 @@ article .reflection_box{
     border-radius: 0.25rem;
 }
 
-.reflection_box h2 {
+.reflection_box a {
     padding: 0;
-    margin: 0;
+    margin: 0 0 0.5rem 0;
     font-weight: bold;
     color:rgb(196, 133, 255);
     letter-spacing: 0.05rem;
+    text-decoration: none;
+    font-size: 1.75rem;
 }
 
-.language_options {
+.reflection_box p{
+    color: rgb(238, 238, 238);
+}
+
+.data_list {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-.language_options a{
+.data_list a{
     text-decoration: none;
     color: white;
     padding: 0.25rem;
