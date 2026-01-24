@@ -146,7 +146,7 @@ article .reflection_box{
     font-size: medium;
 }
 
-#date {
+.date {
     font-size: medium;
     color: rgb(133, 133, 133);
     background-color: rgb(226, 226, 226);
